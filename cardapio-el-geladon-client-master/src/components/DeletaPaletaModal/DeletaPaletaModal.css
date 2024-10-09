@@ -1,0 +1,56 @@
+.DeletaPaletaModal {
+  margin-top: -20px;
+}
+
+.DeletaPaletaModal > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.DeletaPaletaModal__foto {
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+  width: 80px;
+}
+
+.DeletaPaletaModal__confirmar,
+.DeletaPaletaModal__cancelar {
+  border: none;
+  border-radius: 5px;
+  font-family: "Exo", sans-serif;
+  padding: 5px;
+  max-width: 280px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 48%;
+  color: #ffffff;
+}
+
+.DeletaPaletaModal__confirmar {
+  background-color: #9400d3;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.DeletaPaletaModal__confirmar:hover {
+  background-color: #6d009c;
+}
+
+.DeletaPaletaModal__cancelar {
+  background-color: #ff0000;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+.DeletaPaletaModal__cancelar:hover {
+  background-color: #cf0101;
+}
+/*# sourceMappingURL=DeletaPaletaModal.css.map */
